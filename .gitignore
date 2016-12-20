@@ -6,7 +6,8 @@
 
 # dependencies
 /node_modules
-/bower_components
+/polymer/bower_components
+/polymer/build/*
 
 # IDEs and editors
 /.idea

@@ -1,0 +1,30 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/iron-component-page/iron-component-page.html">
+
+
+<dom-module id="polymer-app">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+<h2>Hello [[prop1]]</h2>
+<iron-component-page src="./google-codelab-elements.html"></iron-component-page>
+</template>
+
+<script>
+    Polymer({
+
+      is: 'polymer-app',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'polymer-app',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
